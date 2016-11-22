@@ -20,8 +20,8 @@ class HTMLMinifyListener implements IParameterizedEventListener {
 		);
 
 		$replace = array(
-			'>',
-			'<',
+			'> ',
+			' <',
 			'\\1',
 			'',
 			''
